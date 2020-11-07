@@ -5,7 +5,23 @@ h1{
 }
 
 .clase1 {
-	color:#blue;
+	color:blue;
 	text-align: left;
 	font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+	width: 100%;
+	text-align: center;
+	color: blue;
+	vertical-align: middle;
+}
+/*los acomoda*/
+li {
+  display: inline;
+}
+/*comentario*/
+/*alinea el contenido*/
+ul{
+	display: flex;
 }
