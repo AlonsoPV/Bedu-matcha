@@ -10,12 +10,46 @@ h1{
 	font-family: 'Roboto', sans-serif;
 }
 
-.menu {
-	width: 100%;
-	text-align: center;
-	color: blue;
-	vertical-align: middle;
+.header{
+	/*margin-top: 40px;
+	margin-left: 20px;
+	margin-right: 20px;*/
+	display: inline-block;
+	margin: 40px 20px 0 20px;
+	width: 50%;
+	font-size: 0;
 }
+
+
+
+.logo {
+	width: 15%;
+}
+.navbar {
+	width: 70%;
+	margin: 25px 25px 0 25px;
+	color:#025157;
+	/*text-align: center;
+	color: blue;
+	vertical-align: middle;*/
+}
+.actions{
+	width: 15%;
+	font-size: 14px;
+	margin: 10px 10px 0 10px;
+}
+
+.blanco{
+	color:white;
+	background: blue;
+	padding:12px 14px 12px 14px;
+}
+
+.boton{
+	border: 0;
+	border-radius: 5px;
+}
+
 /*los acomoda*/
 li {
   display: inline;
@@ -23,5 +57,8 @@ li {
 /*comentario*/
 /*alinea el contenido*/
 ul{
+	display: flex;
+}
+div{
 	display: flex;
 }
