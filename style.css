@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet)
+h1{
+	color:#025157;
+	text-align: center;
+	font-family: 'Roboto', sans-serif; 
+}
+
+.clase1 {
+	color:#blue;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+}
