@@ -29,8 +29,8 @@ h1{
 	width: 70%;
 	margin: 25px 25px 0 25px;
 	color:#025157;
-	/*text-align: center;
-	color: blue;
+	text-align: center;
+	/*color: blue;
 	vertical-align: middle;*/
 }
 .actions{
@@ -43,6 +43,7 @@ h1{
 	color:white;
 	background: blue;
 	padding:12px 14px 12px 14px;
+
 }
 
 .boton{
@@ -52,13 +53,50 @@ h1{
 
 /*los acomoda*/
 li {
-  display: inline;
+	
+	display: inline;
 }
 /*comentario*/
 /*alinea el contenido*/
 ul{
+
 	display: flex;
 }
 div{
 	display: flex;
+}
+
+.publish {
+  /* container styles if any */
+}
+
+.publish h3 {
+  font-family: 'Alegreya', serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.publish > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.publish > form {
+  display: flex;
+}
+
+.publish > form p {
+  color: #025157;
+  margin-right: 18px;
+}
+
+section {
+	display: flex; 
+}
+
+video{
+	margin: 10px 10px 10px 10px;
 }
