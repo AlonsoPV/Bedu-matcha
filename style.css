@@ -34,11 +34,14 @@ main{
 }
 
 .logo {
-	width: 15%;
+	width: 25%;
 }
 
 .logo > img{
-	width:20%;
+	width:50%;
+	height: 100%;
+	margin-left: 25%;
+	margin-right: auto;
 }
 .navbar {
 	width: 70%;
@@ -57,21 +60,31 @@ main{
 .actions{
 	width: 15%;
 	font-size: 14px;
-	margin: 10px 10px 0 10px;
+	margin: auto;
 	text-align: center;
-	display: inline-block;
+	display: inline;
+	/*Opciones de menu*/
 }
 
 .blanco{
-	color:white;
-	background: blue;
+	color:black;
+	border-radius:15px;
+	border-style: solid;
+    border-color: #92a8d1;
+    margin:auto;
+    display: inline;
 	padding:12px 14px 12px 14px;
-
 }
 
 .boton{
 	border: 0;
 	border-radius: 5px;
+
+	padding:12px 14px 12px 14px;
+	width: 100px;
+	height: 50px;
+	margin: auto;
+	background: white;
 }
 
 /*los acomoda*/
@@ -141,9 +154,10 @@ video{
 .imgcentro{
 	vertical-align: center;
 	border-style: none;
-	display: flex;
-	position: center;
-	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%
 }
 
 .features {
@@ -160,15 +174,17 @@ video{
   background-color: #fff;
   border: 1px solid #dadada;
   border-radius: 5px;
+  /*vertical-align: left;*/
   display: flex;
-  align-items: center;
-  overflow: hidden;
+  /*align-items: center;*/
+  overflow: hidden;  /*???*/
 }
 
 .features .feature-card .feature-content {
   padding: 30px 20px 40px 40px;
   flex: 2;
-  display: inline;
+  align-items: flex-start;   /*???*/
+  display: block;
 }
 
 .features .feature-card .feature-content > * {
@@ -176,20 +192,28 @@ video{
   margin-top: 0;
 }
 
+
 .features .feature-card .feature-content img {
   width: 50px;
+ /* align-items: flex-start;
+  align-content: left;*/
 }
-
+img{
+	width: 150px;
+}
 .features .feature-card .feature-content h3 {
   font-size: 24px;
   color: #343434;
   font-weight: 400;
+  text-align: left;
 }
 
 .features .feature-card .feature-content p {
   font-size: 16px;
   color: #7e7e7e;
   font-weight: 400;
+  text-align: left;
+
 }
 
 .features .feature-card .feature-content a {
@@ -197,13 +221,14 @@ video{
   color: #67b54b;
   font-weight: 600;
   text-decoration: none;
+  text-align: left;
 }
 
 .features .feature-card .feature-image {
   flex: 1;
-  width: 40%;
+  width: 30%;
   position: relative;
-  right: -50px;
+  right: 60px; /*???*/
   height: 80%;
 }
 
@@ -211,6 +236,7 @@ video{
 .features .feature-card .feature-image img {
   margin-top: 0;
   height: 100%;
+  padding-left: 10px;
 }
 
 .figure{
