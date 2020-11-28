@@ -278,98 +278,125 @@ img{
 	width: 100px;
 	height: 50px;
 }
-/*_____________________________________________growing________________________________________*/
-.secc-flex{
-	background-color: #a1d683;
-  	padding: 2% 10%;
-  	display: flex;
-  	justify-content: space-around;
-
+/*_____________________________________________carrousel________________________________________*/
+.success-stories {
+    background-color: #a1d683;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-
-.secc-flex .contenido{
-	width: 100%;
-	height: 700px;
-	padding-right: 20%;
-	margin-top: 10px;
-	margin-left: 30px;
-	flex: 2;
-	display: block; /*porque con esto cambia la imagen*/
-	
+.success-stories .overview {
+    flex: 2;
+    padding-right: 100px;
 }
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-    display: block;
-}
-.secc-flex .contenido .growing{/*header*/
-	font-family: "Alegreya", serif;
+.success-stories .overview h2 {
+    font-family: “Alegreya”, serif;
     font-size: 51px;
     line-height: 61px;
     color: #025157;
-
-	
 }
-.secc-flex .contenido .textgr{
-	color: #343434;
+
+.success-stories .overview p {
+    color: #343434;
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 1rem;
-
 }
 
-.secc-flex .contenido img{
-	width: 500px;
+.success-stories .overview button {
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+}
+.success-stories .overview img {
+    width: 500px;
     max-width: 100%;
 }
-.boton-contenido{
-	background-color: #025157;
-    color: #fff;  
-    height: 75px;
-    border: solid;
-    border-radius: 16px 16px 16px 16px;
-    /*padding: 5px 10px;
-    display: block;*/
-	font-weight: 600;
+.success-stories .stories-carousel {
+    flex: 1;
 }
-
-.lateral{
-	background-color: white;
-	border-radius: 16px 16px 16px 16px;
-	max-width: 150px;
+.success-stories .stories-carousel .carousel-indicators {
+    position: unset;
+}
+.success-stories .stories-carousel .card {
+    max-width: 370px;
     width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
 }
-
-
-.lateral img{
-	margin-top: 0;
-	border-color: black;
-	border: solid;
-	border-radius: 100%;
+.success-stories .stories-carousel .card .card-media img {
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
-
-.lateral .circulo{
-	position: absolute;
-	right: 55px;
-	width: 100px;
-	height: 100px;
-	background-color: #f9da73;
-	border-radius: 100%;
-	display: flex;
+.success-stories .stories-carousel .card .card-media figure {
+    margin-top: 0;
+}
+.success-stories .stories-carousel .card .card-media {
+	position: relative;
+}
+.success-stories .stories-carousel .card .card-media .company {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #F9DA73;
+    border-radius: 50%;
+    display: flex;
     justify-content: center;
-    align-items: center;    
-
+    align-items: center;
 }
-
-.boton-lateral{
-	background-color: green;
-	color: white;
-	border-radius: 16px 16px 16px 16px;
-	max-width: 370px;
-   	width: 100%;
-    align-items:  center;
+.success-stories .stories-carousel .card .card-media .company img {
+    max-width: 75%;
 }
-
-.divblock{
-	display: block;
+  .success-stories .stories-carousel .card .card-body,
+  .success-stories .stories-carousel .card .card-footer {
+    padding: 25px;
+}
+.success-stories .stories-carousel .card .card-body h4 {
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.success-stories .stories-carousel .card .card-body h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.success-stories .stories-carousel .card .card-body .results {
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+.success-stories .stories-carousel .card .card-body .results img {
+    width: 26px;
+    margin-right: 20px;
+}
+.success-stories .stories-carousel .card .card-body .results p {
+    margin-top: 0;
+}
+.success-stories .stories-carousel .card .card-footer {
+    margin-bottom: 20px;
+    background-color: unset;
+    border-top: unset;
+}
+.success-stories .stories-carousel .card .card-footer button {
+    display: block;
+    margin-left: 0;
+    border-radius: 5px;
+    font-size: 13;
+    font-weight: 600;
+    padding: 12px 20px;
+    width: 100%;
 }
 
 /*_________________________how does it work________________*/
@@ -512,3 +539,5 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: none;
   }
 }
+
+
